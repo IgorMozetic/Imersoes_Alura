@@ -1,2 +1,2 @@
-# Imersoes_Alura
-Projetos realizados na Imersões da Alura
+# Imersâo Dados
+Projetos realizados na imersão dados da alura em Python
