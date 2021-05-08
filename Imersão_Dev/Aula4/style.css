@@ -42,7 +42,7 @@ body > img {
 }
 
 p {
-display: inline;  
+  display: inline;  
 }
 
 /* p img{
@@ -55,6 +55,8 @@ display: inline;
   color: white;
   font-size: 10px;
   text-align: center;
+  background-color: black;
+
 }
 
 .informar {
@@ -66,11 +68,11 @@ display: inline;
 
 .botao {
   font-size: 25px;
-  margin-top: 15px;
+  margin-top: 12px;
   margin-left: auto;
   margin-right: auto;
   width: 250px;
-  height: 50px;
+  height: 40px;
   border: 0.5px solid black;
   border-radius: 10px; 
   display: text;
