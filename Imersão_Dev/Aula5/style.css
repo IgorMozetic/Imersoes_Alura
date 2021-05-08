@@ -1,0 +1,101 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    text-align:center;
+    background-image: url('https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: rgba(167,159,154,0.7);
+    width: 600px;
+    border: 2px solid white;
+    margin: auto auto;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    font-size: 40px;
+    background-color: rgba(17,228,156,0.7);
+    border: 2px solid white;
+    width: 400px;
+    margin: auto auto;
+    margin-top: -10px;
+  }
+  
+  .page-subtitle {
+    color: #000000;
+    font-size: 20px;
+    margin-top: 15x;
+  }
+  
+  .page-logo {
+    width: 200px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+  
+  #listaPodcast {
+    margin: 10px;
+    margin-top: 10px;
+  }
+  
+  .form-wrapper {
+    margin: 0 0 15px;
+  }
+  
+  .form-wrapper input {
+    display: block;
+    background-color: #262626;
+    color: white;
+    width: 300px;
+    margin-top: 5px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 15px;
+  }
+  
+  .form-wrapper button {
+    color: #000000;
+    background: #f7b8b6;
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: .3s;
+    margin-bottom: -20px;
+  }
+  
+  .form-wrapper button:hover {
+    opacity:.8;
+  }
+
+.saida {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  opacity: 0.99;
+  z-index: 999;
+  border-bottom: 1px solid white;
+  height: 30px;
+  width: 300px;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
