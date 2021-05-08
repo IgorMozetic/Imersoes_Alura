@@ -1,0 +1,107 @@
+body {
+  font-family: 'Press Start 2P', cursive;
+  background-image: url(https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/5dd1da62-7fad-4065-ac16-928d743a2176/da6d9e1f-3ef4-4d6c-8dd2-c22109871d9b.jpg);
+  background-color: #ff4d43;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position-x: center;
+  background-position-y: 50px;
+}
+
+.container {
+  align-content: center;
+}
+
+.logo {
+  width: 200px;
+  height: 75px;
+  position: absolute;
+  top: 515px;
+  right: 30px;
+  display: flex;
+}
+
+.page-logo {
+  width: 200px;
+  margin-left: 27px;
+  margin-top: 27px;
+  display: flex;
+}
+
+.charmander {
+  transform: scale(0.75, 0.75);
+  display: flex;
+  margin-left: 942px;
+  margin-top: -70px;
+  display: flex;
+}
+
+.charizard {
+  transform: scale(0.85, 0.85);
+  display: flex;
+  margin-left: -75px;
+  margin-top: -400px;
+  display: flex;
+}
+
+.tituloDaPag {
+  color: #000000;
+  font-size: 30px;
+  margin: -20px -8px -5px;
+  background-color: #ffdb54fa;
+  padding: 30px;
+  justify-content: center;
+  display: flex;
+  box-shadow: 0 0 0 5px rgba(0,0,0,0.5);
+  
+}
+
+.subtituloDaPag  {
+  color: #ff221d;
+  background-color: #ffdb54fa;
+  font-size: 12px;
+  margin: -30px -8px -5px;
+  padding: 8px;
+  text-align: center;
+
+}
+
+.entrada  {
+  margin-top: -150px;
+  margin-left: 380px;
+  display: flex;
+}
+
+.caixaDeTexto {
+  margin-top: 27px;
+  margin-left: -150px;
+  width: 200px;
+  height: 30px;
+  display: flex;
+}
+
+.resposta {
+  margin-top: -300px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+.botao {
+  margin-top: -5px;
+  margin-left: 395px;
+  display: flex;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px; 
+  align-items: center;
+  justify-content: center;
+}
+
+.container h2 {
+  color: black;
+  font-size: 30px;
+  margin-top: -300px;
+  margin-left: 365px;
+}
