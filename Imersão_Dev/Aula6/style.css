@@ -1,0 +1,200 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  min-height: 400px;
+  background-image: url('https://images.unsplash.com/photo-1522778119026-d647f0596c20?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    background-color: #111;
+    background-size: 100%;
+/*     background-position: center; */
+  background-repeat: no-repeat;
+}
+
+.page-logo {
+  width: 200px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+  
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right:10px;
+}
+
+table {
+  color: #262626;
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color: rgba(255,255,255,0.7);
+  font-size: 30px;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  background-color: #262626;
+  width: 700px;
+  margin: auto auto;
+  padding: 5px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+h2 {
+  color: white;
+  font-size: 17px;
+  background-color: black;;
+  width: 400px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+th, tr, td {
+  border: solid 1px black;
+  font-size: 25px;
+}
+
+#nomeJogador  {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+#fotoJogador {
+  color: white;
+  font-size: 20px;
+  margin-top: 15x;
+}
+
+#bloco {
+  background-color: rgba(0,0,0,0.8);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 500px;
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+#add {
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  background: #262626;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+#addV {
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+  background: #008000;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+#addE {
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+  background: #FFFF00;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+#addD {
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+  background: #FF0000;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+
+#tabelaJogadores {
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+input {
+  font-family: 'Montserrat', sans-serif;
+    display: block;
+    background-color: #262626;
+    color: white;
+    width: 300px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px 15px;
+}
+  
+#botao {
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+  background: #659e38;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: .3s;
+}
+  
+button:hover {
+  opacity:.8;
+}
+
+.saida {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  opacity: 0.99;
+  z-index: 999;
+  border-bottom: 1px solid white;
+  height: 30px;
+  width: 450px;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ajustar {
+  margin-top: 3px;
+  max-width: 100px;
+}
+
+.ajustar img{
+  max-width: 100px;
+}
