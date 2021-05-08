@@ -1,0 +1,130 @@
+body {
+  font-family: 'Press Start 2P', cursive;
+  background: url("https://images.unsplash.com/photo-1511512578047-dfb367046420?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+
+.container {
+  text-align: center;
+  padding: 10px;
+}
+
+.page-title {
+  color: #0a1717;
+  background-color: rgba(17,228,156,0.7);
+  border: 2px solid white;
+  width: 700px;
+  height: 60px;
+  margin: auto auto;
+  padding-top: 10px;
+  font-size: 50px;
+  margin-top: -12px;
+}
+
+.page-logo {
+  width: 200px;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+body > img {
+  margin: 30px 30px 10px 30px;
+}
+
+p {
+display: inline;  
+}
+
+/* p img{
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}  */
+
+.nomeSeries {
+  color: white;
+  font-size: 10px;
+  text-align: center;
+}
+
+.informar {
+  color: white;
+  margin-left: 20px;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.botao {
+  font-size: 25px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 50px;
+  border: 0.5px solid black;
+  border-radius: 10px; 
+  display: text;
+}
+
+input {
+  background-color: white;
+  opacity: 0.8;
+  border-bottom: 1px solid black;
+  height: 30px;
+  width: 400px;
+  padding-top: 5px;
+  margin-top: -50px;
+  text-align: center;
+  font-size: 25px;
+  box-shadow: 0 0 0 0;
+  outline: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h6 {
+  margin-top: 370px;
+}
+
+.vazia div{
+  width: 200px;
+  display: inline-block;
+}
+.alinhar{
+  display: inline-block;
+  width: 190px;
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  margin-left: 80px;
+}
+
+.centro {
+  transform: scale(2,2);
+}
+
+.saida {
+  color: white;
+  margin-left: 25px;
+  border: none;
+  opacity: 0.99;
+  z-index: 999;
+  border-bottom: 1px solid white;
+  height: 30px;
+  width: 800px;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
