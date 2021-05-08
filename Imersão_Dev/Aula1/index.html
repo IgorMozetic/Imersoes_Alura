@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>Imersão Dev - Aula 01</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">
+        Conversor de moedas
+      </h1>
+      <p class="page-subtitle">
+        Descubra os valores em dolar U$
+      </p>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+      <div class="convert">
+        <div class="blocos">
+        <div class="bloco">
+          <div class="subtitle">
+            <h5>Valor do dolar atual: <strong class = "precoAtual">R$5,50</strong></h5>
+              <div class = "entrada" for = "real">
+                <label>Real:</label>
+                  <input id="real" class="real" type="text" value:"0.0">
+              </div>
+              <button id="botao" class="botao" onclick = "conversao()" >Realizar a Conversão</button> 
+              <h6>O valor  convertido em Dolares é de:</h6>
+              <div id="resultadoRealDolar" class="saida">
+                
+              </div>
+          </div>
+        </div>
+          <div class="bloco">
+            <div class="subtitle">
+              <h5>Valor do real atual: <strong class = "precoAtual">0,19U$</strong></h5>
+                <div class = "entrada" for = "dolar">
+                  <label>Dolar:</label>
+                  <input id="dolar" class="dolar" type="text" value:"0.0">
+                </div>
+                <button id="botao2" class="botao2" onclick = "conversao2()" >Realizar a Conversão</button>
+                <h6>O valor  convertido em Reais é de:</h6>
+                <div id="resultadoDolarReal" class="saida">
+                  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
