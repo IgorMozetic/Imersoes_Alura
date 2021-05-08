@@ -1,0 +1,119 @@
+body {
+  font-family: 'Montserrat',monospace;
+  background: url("https://i.pinimg.com/564x/6a/c6/7f/6ac67f0dcffd36c352a9e777214aecc4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y:center;
+}
+
+.container {
+    text-align: center;
+    height: 100vh;
+}
+
+.page-title {
+  color: white;
+  background-color: #fb3b3b;
+  font-size: 50px;
+  padding: 10px;
+  border: 1px solid white;
+  box-shadow: 0 0 0 3px rgba(0,0,0,0.5);
+  width: 300px;
+  margin: auto auto;
+}
+
+.page-subtitle {
+  font-family: 'Inconsolata', monospace;
+  color: white;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.page-logo {
+    width: 200px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+}
+
+.bloco {
+  background-color: rgba(52,52,56,0.90);
+  width: 750px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  margin-top: -10px;
+}
+
+.tituloDoBloco {
+  color: white;
+  margin: auto auto;
+  font-size: 40px;
+  align-items: center;
+  margin-top: -50px;
+}
+
+.tituloDoBloco h6 {
+  color: white;
+  margin: auto auto;
+  font-size: 25px;
+  align-items: center;
+  margin-top: 20px;
+}
+.informar {
+  color: white;
+  font-size: 20px;
+  margin-top: -25px;
+}
+
+.botao {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 50px;
+  border: 0.5px solid black;
+  border-radius: 10px; 
+  display: text;
+}
+
+input {
+  background-color: white;
+  opacity: 0.8;
+  border-bottom: 1px solid black;
+  height: 30px;
+  width: 200px;
+  padding-top: 5px;
+  margin-top: -50px;
+  text-align: center;
+  font-size: 25px;
+  box-shadow: 0 0 0 0;
+  outline: 0;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: -300px;
+}
+
+.saida {
+  color: white;
+  margin-left: 25px;
+  border: none;
+  opacity: 0.8;
+  border-bottom: 1px solid white;
+  height: 30px;
+  width: 600px;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
